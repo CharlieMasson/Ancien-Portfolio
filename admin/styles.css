@@ -1,0 +1,166 @@
+/*!GENERAL*/
+
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3 {
+  color: #4f5e01;
+  text-align: center;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+body {
+  font-family: "Playfair Display", serif;
+  margin: 0;
+  background: url("../images/carré.svg");
+  background-size: 97%;
+  background-attachment: fixed;
+}
+
+ul,
+ol {
+  list-style: none;
+  padding-left: 0;
+  text-align: center;
+}
+
+/*!MENU*/
+#navbar ul li a {
+  color: #8a5689 !important;
+  font-weight: bold;
+  float: left;
+}
+.navbar-brand {
+  color: #8a5689 !important;
+  font-weight: bold;
+}
+
+/*!FORMULAIRE DE CONNEXION*/
+
+#connexion {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: nowrap;
+}
+
+.connex {
+  margin-right: 45px;
+}
+
+.boutons {
+  margin-top: 20px;
+}
+
+.flexboxForm {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.formconnex {
+  width: 300px;
+  background: rgb(228, 228, 228);
+}
+
+/*!TABLEAU*/
+
+#tableau {
+  margin-top: 50px;
+}
+
+/*!CREATION PROJET*/
+
+#creationProjet {
+  margin: 100px 250px 100px 250px;
+  padding: 50px 20px 50px 20px;
+}
+
+#creationProjet h2 {
+  text-align: center;
+  color: rgb(173, 25, 25);
+  font-weight: bold;
+  border-bottom: red 1px solid;
+  margin-bottom: 30px;
+}
+
+.labels ul li {
+  margin: 5px auto 19px auto;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.flexBoxFormu {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 80px;
+}
+
+.flexBoxFormu div ul li input {
+  width: 300px;
+  height: 40px;
+}
+
+.flexBoxFormu div ul li label {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.flexBoxFormu div ul li {
+  display: flex;
+  justify-content: space-between;
+  margin: 0.5rem;
+  gap: 25px;
+}
+
+.creation {
+  margin-top: 50px;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+}
+
+.flexboxButton {
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 1600px) {
+  .flexBoxFormu {
+    flex-direction: column;
+    margin: auto 100px;
+  }
+
+  .flexBoxFormu div ul li {
+    justify-content: space-between;
+  }
+}
+
+.aide {
+  color: red;
+}
+
+/*!SUPPRIMER*/
+
+.flexboxSupprimer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+}
+
+.supprimer {
+  text-align: center;
+}
